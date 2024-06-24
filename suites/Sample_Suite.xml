@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Sample Test Suite" configfailurepolicy="skip">
+    <test name="Sample Test Cases" configfailurepolicy="skip">
+<!--    <parameter name="env" value="dev" />-->
+      <classes>
+        <class name="org.dfn.qa.test.LoginTest"/>
+        <class name="org.dfn.qa.test.NavigationBarTest"/>
+          <class name="org.dfn.qa.test.NewOrderBuyTest"/>
+          <class name="org.dfn.qa.test.NewOrderSellTest"/>
+      </classes>
+    </test>
+</suite>
